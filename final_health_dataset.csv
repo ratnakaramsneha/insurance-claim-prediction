@@ -1,0 +1,201 @@
+Patient_ID,Timestamp,Sensor_ID,Sensor_Type,Temperature,Systolic_BP,Diastolic_BP,Heart_Rate,Device_Battery_Level,Target_Blood_Pressure,Target_Heart_Rate,Target_Health_Status,Battery_Level,Insurance_Cost,Age,Gender,BMI_Category,Exercise_Frequency,Fast_Food_Consumption,Smoking,Insurer_type,Insurance_type,Claim_Limit
+8270,01-01-2024 00:00,4,Temperature,36.8,150,95,84,99,140,90,Unhealthy,80,1883,56,female,overweight,rarely,no,no,ICICI Lombard,Personal,28245
+1860,01-01-2024 01:00,1,Battery,37.3,150,95,77,84,140,90,Unhealthy,94,1800,69,male,overweight,frequently,no,no,ICICI Lombard,Senior Citizen,18000
+6390,01-01-2024 02:00,1,Temperature,36.5,140,85,99,93,130,80,Healthy,84,1844,46,other,obese,rarely,yes,no,ICICI Lombard,Family,46100
+6191,01-01-2024 03:00,4,Battery,37.3,120,80,67,95,150,90,Unhealthy,92,1527,32,other,underweight,rarely,no,no,ICICI Lombard,Personal,22905
+6734,01-01-2024 04:00,4,Temperature,36.8,90,60,98,97,120,80,Unhealthy,87,1635,60,male,obese,occasionally,no,no,ICICI Lombard,Senior Citizen,16350
+7265,01-01-2024 05:00,3,Battery,36.6,120,85,99,86,120,90,Unhealthy,87,1896,25,other,overweight,rarely,no,no,ICICI Lombard,Personal,28440
+1466,01-01-2024 06:00,2,Battery,37.04055556,90,60,73,89,120,70,Unhealthy,84,1494.811111,78,other,underweight,never,no,no,ICICI Lombard,Senior Citizen,14948.11111
+5426,01-01-2024 07:00,4,Blood Pressure,37.1,140,90,91,86,120,80,Healthy,88,1889,38,male,underweight,daily,no,yes,ICICI Lombard,Personal,28335
+6578,01-01-2024 08:00,1,Battery,37.4,140,90,97,80,120,70,Unhealthy,80,1922,56,male,obese,daily,no,yes,ICICI Lombard,Family,48050
+9322,01-01-2024 09:00,3,Blood Pressure,37.2,150,95,92,98,120,80,Unhealthy,83,1916,75,other,overweight,frequently,no,no,ICICI Lombard,Senior Citizen,19160
+2685,01-01-2024 10:00,4,Battery,37.3,120,80,82,95,120,90,Healthy,82,1564,36,other,underweight,rarely,no,yes,ICICI Lombard,Personal,23460
+1769,01-01-2024 11:00,1,Heart Rate,36.8,150,95,74,98,120,90,Unhealthy,81,1586,40,other,obese,never,no,yes,ICICI Lombard,Family,39650
+7949,01-01-2024 12:00,1,Heart Rate,36.7,120,80,92,83,120,80,Healthy,87,1802,28,female,overweight,frequently,no,yes,ICICI Lombard,Personal,27030
+3433,01-01-2024 13:00,2,Heart Rate,37.3,150,95,84,97,150,80,Unhealthy,88,1691,28,female,obese,occasionally,no,no,ICICI Lombard,Personal,25365
+6311,01-01-2024 14:00,3,Battery,37.3,130,85,76,81,150,90,Healthy,81,1569,41,female,normal,frequently,yes,no,ICICI Lombard,Family,39225
+6051,01-01-2024 15:00,3,Blood Pressure,37.5,130,85,92,80,140,70,Healthy,93,1827,70,male,underweight,frequently,yes,yes,ICICI Lombard,Senior Citizen,18270
+7420,01-01-2024 16:00,2,Blood Pressure,36.9,130,85,61,94,120,80,Healthy,93,1404,53,female,normal,rarely,no,no,ICICI Lombard,Personal,21060
+2184,01-01-2024 17:00,2,Battery,36.9,130,85,73,84,120,80,Healthy,83,1505,57,male,overweight,occasionally,no,yes,ICICI Lombard,Family,37625
+5555,01-01-2024 18:00,3,Heart Rate,37.3,90,60,99,99,130,90,Unhealthy,85,1820,41,male,normal,frequently,yes,yes,ICICI Lombard,Personal,27300
+4385,01-01-2024 19:00,3,Heart Rate,36.8,130,85,99,90,120,80,Healthy,90,1831,20,female,normal,never,no,yes,ICICI Lombard,Personal,27465
+7396,01-01-2024 20:00,4,Blood Pressure,37.4,140,90,98,89,140,80,Unhealthy,82,2017,39,female,overweight,never,yes,yes,ICICI Lombard,Family,50425
+9666,01-01-2024 21:00,4,Heart Rate,37.04055556,140,90,65,81,140,80,Healthy,87,1608.811111,70,female,obese,daily,yes,no,ICICI Lombard,Senior Citizen,16088.11111
+3558,01-01-2024 22:00,2,Temperature,36.9,90,60,65,82,120,70,Healthy,82,1286,19,other,normal,occasionally,yes,no,ICICI Lombard,Personal,19290
+8849,01-01-2024 23:00,4,Blood Pressure,37.04055556,130,85,62,91,120,80,Healthy,93,1477.811111,41,female,obese,occasionally,yes,no,ICICI Lombard,Family,36945.27778
+3047,02-01-2024 00:00,1,Heart Rate,37.3,130,85,66,99,120,90,Unhealthy,92,1572,61,other,normal,daily,yes,yes,ICICI Lombard,Senior Citizen,15720
+3747,02-01-2024 01:00,4,Blood Pressure,36.6,130,85,67,84,130,80,Healthy,92,1438,47,male,obese,frequently,no,no,ICICI Lombard,Family,35950
+1189,02-01-2024 02:00,4,Temperature,37.4,150,95,74,84,120,70,Unhealthy,81,1875,55,other,overweight,occasionally,yes,yes,ICICI Lombard,Family,46875
+3734,02-01-2024 03:00,1,Blood Pressure,37,120,80,88,85,140,80,Unhealthy,92,1799,19,female,normal,never,no,no,ICICI Lombard,Personal,26985
+4005,02-01-2024 04:00,2,Blood Pressure,37.3,150,95,92,88,120,80,Unhealthy,98,1830,77,male,overweight,never,no,yes,ICICI Lombard,Senior Citizen,18300
+5658,02-01-2024 05:00,1,Blood Pressure,36.8,120,80,89,81,120,70,Unhealthy,85,1621,38,male,normal,rarely,yes,yes,ICICI Lombard,Personal,24315
+2899,02-01-2024 06:00,4,Blood Pressure,37.4,130,85,98,91,150,70,Unhealthy,95,1953,50,male,overweight,occasionally,yes,yes,ICICI Lombard,Family,48825
+8734,02-01-2024 07:00,2,Temperature,37.04055556,130,85,86,82,130,70,Unhealthy,81,1840.811111,29,other,overweight,frequently,no,no,ICICI Lombard,Personal,27612.16667
+2267,02-01-2024 08:00,4,Battery,36.5,150,95,82,99,130,90,Unhealthy,87,1780,75,female,normal,daily,yes,no,ICICI Lombard,Senior Citizen,17800
+2528,02-01-2024 09:00,1,Blood Pressure,37.4,130,95,88,91,150,80,Unhealthy,96,1846,39,male,normal,daily,yes,no,ICICI Lombard,Personal,27690
+4556,02-01-2024 10:00,1,Blood Pressure,36.6,120,80,97,96,130,70,Unhealthy,81,1897,78,male,normal,frequently,no,no,ICICI Lombard,Senior Citizen,18970
+4890,02-01-2024 11:00,4,Heart Rate,36.8,140,90,92,89,130,90,Healthy,89,1944,61,male,underweight,rarely,no,yes,ICICI Lombard,Senior Citizen,19440
+9838,02-01-2024 12:00,3,Blood Pressure,37.5,120,80,96,93,120,80,Healthy,95,1834,42,other,obese,daily,yes,no,ICICI Lombard,Family,45850
+6393,02-01-2024 13:00,3,Heart Rate,37.5,130,95,86,96,120,90,Healthy,85,1820,66,other,underweight,occasionally,no,no,ICICI Lombard,Senior Citizen,18200
+9792,02-01-2024 14:00,1,Battery,37.1,150,95,92,97,150,80,Healthy,81,1980,44,female,underweight,rarely,yes,yes,ICICI Lombard,Personal,29700
+9433,02-01-2024 15:00,1,Temperature,37.04055556,90,60,63,98,120,90,Healthy,81,1252.811111,76,other,overweight,occasionally,yes,yes,ICICI Lombard,Senior Citizen,12528.11111
+8513,02-01-2024 16:00,3,Temperature,36.9,150,95,81,96,120,80,Unhealthy,92,1839,59,male,normal,never,yes,yes,ICICI Lombard,Family,45975
+3612,02-01-2024 17:00,3,Battery,36.8,90,60,61,93,130,70,Unhealthy,94,1429,45,female,obese,rarely,no,no,ICICI Lombard,Personal,21435
+8041,02-01-2024 18:00,4,Temperature,36.8,140,90,69,88,140,80,Unhealthy,81,1715,77,male,overweight,daily,no,yes,ICICI Lombard,Senior Citizen,17150
+7235,02-01-2024 19:00,4,Battery,37.2,120,80,64,87,120,90,Unhealthy,86,1588,33,male,underweight,rarely,no,yes,ICICI Lombard,Family,39700
+6486,02-01-2024 20:00,3,Battery,37.3,120,80,69,81,140,90,Unhealthy,82,1533,32,other,normal,rarely,no,yes,ICICI Lombard,Personal,22995
+8099,02-01-2024 21:00,4,Battery,37.3,90,85,92,92,120,80,Unhealthy,87,1612,79,female,overweight,rarely,no,no,ICICI Lombard,Senior Citizen,16120
+1775,02-01-2024 22:00,4,Temperature,37.3,120,80,82,86,120,70,Unhealthy,93,1805,79,other,normal,rarely,yes,yes,ICICI Lombard,Senior Citizen,18050
+9226,02-01-2024 23:00,2,Heart Rate,36.6,150,95,72,88,150,70,Unhealthy,86,1815,64,other,overweight,occasionally,yes,no,ICICI Lombard,Senior Citizen,18150
+4152,03-01-2024 00:00,4,Battery,37,130,85,90,90,150,80,Healthy,100,1790,79,female,normal,never,yes,no,ICICI Lombard,Senior Citizen,17900
+2585,03-01-2024 01:00,1,Blood Pressure,36.6,90,60,95,93,150,80,Unhealthy,86,1512,68,male,underweight,frequently,yes,yes,ICICI Lombard,Senior Citizen,15120
+4943,03-01-2024 02:00,4,Temperature,37,120,85,83,83,140,90,Healthy,80,1752,61,male,obese,rarely,no,yes,ICICI Lombard,Senior Citizen,17520
+8555,03-01-2024 03:00,4,Battery,36.9,90,60,74,92,120,70,Unhealthy,96,1358,72,female,underweight,daily,yes,no,ICICI Lombard,Senior Citizen,13580
+4073,03-01-2024 04:00,3,Battery,37.4,90,60,88,81,120,80,Unhealthy,88,1469,69,male,obese,rarely,no,yes,ICICI Lombard,Senior Citizen,14690
+2021,03-01-2024 05:00,1,Blood Pressure,36.9,130,85,67,84,120,70,Unhealthy,100,1678,74,female,normal,daily,yes,yes,ICICI Lombard,Senior Citizen,16780
+4843,03-01-2024 06:00,4,Heart Rate,36.6,150,95,64,90,120,80,Healthy,92,1744,20,female,overweight,occasionally,no,no,ICICI Lombard,Personal,26160
+8989,03-01-2024 07:00,4,Heart Rate,36.6,90,60,88,85,140,80,Unhealthy,100,1542,54,other,underweight,daily,no,no,ICICI Lombard,Family,38550
+7873,03-01-2024 08:00,2,Heart Rate,37.3,120,80,82,97,150,70,Unhealthy,98,1661,68,female,obese,frequently,yes,yes,ICICI Lombard,Senior Citizen,16610
+6675,03-01-2024 09:00,4,Battery,37.1,140,90,71,89,130,80,Unhealthy,100,1744,24,other,underweight,never,yes,no,ICICI Lombard,Personal,26160
+1161,03-01-2024 10:00,4,Battery,36.6,130,60,61,83,140,80,Healthy,98,1575,38,male,obese,daily,yes,yes,ICICI Lombard,Family,39375
+5297,03-01-2024 11:00,2,Battery,36.6,90,60,86,88,150,90,Unhealthy,96,1620,26,male,underweight,daily,yes,yes,ICICI Lombard,Personal,24300
+1995,03-01-2024 12:00,3,Temperature,37.2,130,85,90,85,140,80,Healthy,89,1854,56,male,obese,never,no,yes,ICICI Lombard,Family,46350
+8629,03-01-2024 13:00,4,Blood Pressure,36.6,150,95,82,81,130,80,Healthy,89,1727,35,male,obese,frequently,yes,no,ICICI Lombard,Family,43175
+2016,03-01-2024 14:00,2,Battery,37.3,140,90,95,96,150,80,Healthy,83,2024,21,other,normal,rarely,yes,yes,ICICI Lombard,Personal,30360
+8869,03-01-2024 15:00,1,Blood Pressure,37.2,120,80,85,84,140,80,Healthy,87,1689,42,male,obese,daily,no,yes,ICICI Lombard,Family,42225
+7439,03-01-2024 16:00,3,Blood Pressure,36.6,140,90,86,85,130,70,Unhealthy,99,1888,77,female,normal,never,yes,yes,ICICI Lombard,Senior Citizen,18880
+8892,03-01-2024 17:00,1,Heart Rate,36.6,120,80,64,91,120,90,Healthy,99,1440,31,female,obese,occasionally,yes,no,ICICI Lombard,Family,36000
+7863,03-01-2024 18:00,1,Temperature,37.04055556,150,95,79,89,130,90,Healthy,97,1670.811111,67,female,overweight,never,yes,no,ICICI Lombard,Senior Citizen,16708.11111
+8916,03-01-2024 19:00,2,Battery,36.9,120,80,70,85,120,70,Unhealthy,93,1625,75,other,overweight,occasionally,yes,no,ICICI Lombard,Senior Citizen,16250
+9529,03-01-2024 20:00,4,Heart Rate,36.9,130,85,69,87,140,90,Unhealthy,97,1456,26,male,overweight,frequently,yes,no,ICICI Lombard,Personal,21840
+1878,03-01-2024 21:00,2,Heart Rate,37.3,130,85,99,81,150,70,Healthy,93,1916,43,male,obese,rarely,no,no,ICICI Lombard,Personal,28740
+5887,03-01-2024 22:00,2,Battery,37.4,130,85,82,91,150,80,Unhealthy,99,1770,70,male,normal,never,yes,yes,ICICI Lombard,Senior Citizen,17700
+5859,03-01-2024 23:00,2,Blood Pressure,37.5,130,85,65,92,140,70,Healthy,100,1503,19,other,normal,daily,yes,no,ICICI Lombard,Personal,22545
+7331,04-01-2024 00:00,2,Heart Rate,37.3,140,90,67,86,150,80,Healthy,94,1640,37,female,obese,frequently,yes,no,ICICI Lombard,Family,41000
+9571,04-01-2024 01:00,3,Blood Pressure,36.9,150,95,82,89,150,90,Healthy,83,1920,45,female,overweight,never,yes,no,ICICI Lombard,Personal,28800
+9684,04-01-2024 02:00,4,Temperature,36.6,120,85,85,92,120,90,Healthy,92,1791,64,male,overweight,daily,yes,yes,ICICI Lombard,Senior Citizen,17910
+8208,04-01-2024 03:00,1,Blood Pressure,37.3,130,80,71,96,120,90,Unhealthy,87,1540,77,female,normal,never,no,no,ICICI Lombard,Senior Citizen,15400
+6276,04-01-2024 04:00,1,Temperature,37.1,130,85,85,93,130,90,Healthy,97,1630,24,female,overweight,occasionally,yes,no,ICICI Lombard,Personal,24450
+3062,04-01-2024 05:00,4,Blood Pressure,36.9,130,85,72,81,120,80,Unhealthy,91,1546,61,other,underweight,never,no,yes,ICICI Lombard,Senior Citizen,15460
+1064,04-01-2024 06:00,1,Heart Rate,37.4,90,60,99,90,140,90,Unhealthy,93,1575,78,other,normal,never,no,no,ICICI Lombard,Senior Citizen,15750
+9006,04-01-2024 07:00,4,Heart Rate,36.6,130,95,77,80,120,80,Unhealthy,81,1583,25,other,overweight,never,yes,yes,ICICI Lombard,Personal,23745
+3568,04-01-2024 08:00,1,Temperature,37,140,90,84,98,130,80,Unhealthy,97,1654,64,other,normal,frequently,yes,yes,ICICI Lombard,Senior Citizen,16540
+6463,04-01-2024 09:00,2,Battery,36.5,120,80,82,83,130,80,Healthy,81,1774,52,male,underweight,never,yes,yes,ICICI Lombard,Personal,26610
+3027,04-01-2024 10:00,1,Temperature,37.04055556,90,60,99,98,140,80,Unhealthy,90,1606.811111,31,other,normal,daily,yes,yes,ICICI Lombard,Personal,24102.16667
+3695,04-01-2024 11:00,4,Temperature,36.6,90,60,71,90,130,70,Healthy,88,1434,34,female,normal,occasionally,no,yes,ICICI Lombard,Family,35850
+6258,04-01-2024 12:00,4,Blood Pressure,36.6,120,80,95,87,120,70,Unhealthy,91,1741,53,male,normal,occasionally,yes,no,ICICI Lombard,Family,43525
+6618,04-01-2024 13:00,4,Blood Pressure,36.6,140,90,63,90,130,90,Unhealthy,96,1647,67,female,normal,never,yes,yes,ICICI Lombard,Senior Citizen,16470
+7736,04-01-2024 14:00,4,Temperature,37.04055556,90,60,64,83,120,70,Healthy,94,1421.811111,57,female,underweight,frequently,yes,yes,ICICI Lombard,Family,35545.27778
+1391,04-01-2024 15:00,4,Heart Rate,37.2,90,60,96,96,120,70,Healthy,96,1711,21,female,obese,frequently,yes,no,ICICI Lombard,Personal,25665
+6892,04-01-2024 16:00,3,Blood Pressure,37.1,150,95,67,86,130,80,Healthy,97,1648,19,other,normal,daily,yes,yes,ICICI Lombard,Personal,24720
+4561,04-01-2024 17:00,3,Battery,37.5,140,90,87,87,140,90,Unhealthy,85,1660,79,other,normal,never,yes,no,ICICI Lombard,Senior Citizen,16600
+7184,04-01-2024 18:00,1,Blood Pressure,36.9,90,60,90,82,150,90,Unhealthy,96,1481,23,male,overweight,occasionally,no,no,ICICI Lombard,Personal,22215
+4099,04-01-2024 19:00,4,Blood Pressure,36.8,140,90,68,81,120,70,Healthy,97,1494,71,male,normal,frequently,no,no,ICICI Lombard,Senior Citizen,14940
+7278,04-01-2024 20:00,1,Battery,37.4,120,80,88,94,120,70,Healthy,87,1677,59,other,overweight,never,yes,yes,ICICI Lombard,Family,41925
+9392,04-01-2024 21:00,4,Temperature,36.7,130,85,73,84,120,90,Healthy,88,1462,21,female,obese,frequently,yes,yes,ICICI Lombard,Personal,21930
+4104,04-01-2024 22:00,4,Battery,37.5,90,60,99,80,120,80,Healthy,85,1556,71,male,underweight,frequently,yes,yes,ICICI Lombard,Senior Citizen,15560
+8215,04-01-2024 23:00,3,Temperature,36.5,130,95,81,83,120,90,Unhealthy,84,1763,46,other,underweight,occasionally,no,no,ICICI Lombard,Family,44075
+3454,05-01-2024 00:00,3,Temperature,37.04055556,120,80,70,94,140,80,Healthy,91,1560.811111,35,other,obese,rarely,yes,yes,ICICI Lombard,Family,39020.27778
+9996,05-01-2024 01:00,2,Temperature,37.04055556,130,85,82,99,120,80,Healthy,90,1633.811111,43,other,underweight,daily,no,yes,ICICI Lombard,Family,40845.27778
+3731,05-01-2024 02:00,3,Battery,37.4,130,80,60,98,120,90,Healthy,80,1435,61,female,obese,daily,yes,yes,ICICI Lombard,Senior Citizen,14350
+9154,05-01-2024 03:00,2,Temperature,37,90,60,82,82,140,90,Unhealthy,90,1428,51,other,obese,occasionally,yes,no,ICICI Lombard,Personal,21420
+6056,05-01-2024 04:00,2,Heart Rate,37.5,140,90,80,99,150,90,Unhealthy,98,1815,27,other,obese,frequently,yes,no,ICICI Lombard,Personal,27225
+9110,05-01-2024 05:00,2,Battery,36.6,130,85,82,90,130,70,Healthy,88,1679,79,other,underweight,never,yes,yes,ICICI Lombard,Senior Citizen,16790
+4840,05-01-2024 06:00,2,Heart Rate,37.1,120,80,95,96,120,80,Unhealthy,81,1720,53,other,overweight,frequently,no,yes,ICICI Lombard,Family,43000
+2028,05-01-2024 07:00,2,Temperature,37.5,90,85,82,92,120,70,Healthy,91,1438,31,male,obese,occasionally,no,yes,ICICI Lombard,Family,35950
+8385,05-01-2024 08:00,1,Blood Pressure,37,150,95,60,90,140,70,Healthy,83,1458,48,male,normal,daily,yes,yes,ICICI Lombard,Personal,21870
+1502,05-01-2024 09:00,3,Temperature,37.1,140,90,82,81,130,90,Unhealthy,83,1839,65,other,underweight,frequently,yes,no,ICICI Lombard,Senior Citizen,18390
+7910,05-01-2024 10:00,2,Heart Rate,37.2,120,80,74,88,140,70,Healthy,97,1626,32,female,obese,daily,no,no,ICICI Lombard,Family,40650
+7938,05-01-2024 11:00,4,Heart Rate,37,120,80,82,81,130,90,Unhealthy,94,1703,25,male,obese,never,no,no,ICICI Lombard,Personal,25545
+5488,05-01-2024 12:00,3,Battery,37.1,130,85,68,88,130,80,Unhealthy,98,1428,31,other,normal,daily,no,no,ICICI Lombard,Personal,21420
+1206,05-01-2024 13:00,3,Blood Pressure,37.1,130,85,68,88,130,90,Unhealthy,92,1548,40,male,overweight,daily,no,yes,ICICI Lombard,Family,38700
+6134,05-01-2024 14:00,2,Battery,37.4,150,95,69,87,120,80,Unhealthy,98,1542,77,male,overweight,rarely,yes,yes,ICICI Lombard,Senior Citizen,15420
+6977,05-01-2024 15:00,1,Heart Rate,36.5,150,95,85,96,150,70,Unhealthy,96,1959,74,female,overweight,rarely,no,yes,ICICI Lombard,Senior Citizen,19590
+8721,05-01-2024 16:00,2,Temperature,36.8,90,60,94,80,140,90,Unhealthy,85,1482,79,other,obese,rarely,yes,no,ICICI Lombard,Senior Citizen,14820
+8035,05-01-2024 17:00,1,Blood Pressure,37.5,130,60,84,90,120,90,Unhealthy,95,1737,57,other,obese,daily,no,yes,ICICI Lombard,Personal,26055
+2484,05-01-2024 18:00,4,Temperature,37.4,150,95,85,87,140,70,Unhealthy,91,1708,38,female,obese,occasionally,no,no,ICICI Lombard,Family,42700
+8858,05-01-2024 19:00,3,Temperature,37,130,95,70,89,130,80,Unhealthy,98,1567,33,female,underweight,daily,no,no,ICICI Lombard,Family,39175
+1863,05-01-2024 20:00,4,Blood Pressure,37.1,140,90,97,86,120,80,Unhealthy,84,1950,62,other,normal,occasionally,no,yes,ICICI Lombard,Senior Citizen,19500
+3790,05-01-2024 21:00,1,Battery,36.8,130,85,61,82,150,90,Unhealthy,96,1509,35,other,obese,occasionally,no,yes,ICICI Lombard,Family,37725
+8408,05-01-2024 22:00,1,Temperature,36.7,90,85,66,82,120,80,Unhealthy,80,1200,64,female,normal,rarely,yes,yes,ICICI Lombard,Senior Citizen,12000
+9755,05-01-2024 23:00,4,Heart Rate,37,130,85,77,97,140,70,Healthy,89,1796,70,male,normal,frequently,yes,no,ICICI Lombard,Senior Citizen,17960
+6116,06-01-2024 00:00,1,Temperature,36.9,130,85,86,84,120,90,Unhealthy,94,1679,41,male,overweight,never,no,yes,ICICI Lombard,Personal,25185
+7019,06-01-2024 01:00,4,Blood Pressure,37.04055556,150,95,93,91,120,70,Healthy,100,1786.811111,43,female,underweight,rarely,no,no,ICICI Lombard,Personal,26802.16667
+2757,06-01-2024 02:00,3,Blood Pressure,36.6,140,90,82,91,150,70,Unhealthy,100,1647,42,male,obese,rarely,yes,yes,ICICI Lombard,Family,41175
+8574,06-01-2024 03:00,4,Blood Pressure,37.5,120,80,76,98,130,80,Unhealthy,90,1486,77,female,overweight,frequently,no,no,ICICI Lombard,Senior Citizen,14860
+7374,06-01-2024 04:00,3,Battery,37.04055556,140,90,83,85,120,90,Healthy,92,1664.811111,77,male,overweight,never,no,no,ICICI Lombard,Senior Citizen,16648.11111
+7892,06-01-2024 05:00,4,Temperature,37.2,140,90,84,81,130,90,Unhealthy,84,1667,77,male,obese,daily,yes,yes,ICICI Lombard,Senior Citizen,16670
+2678,06-01-2024 06:00,1,Battery,37.04055556,130,85,66,91,140,80,Unhealthy,80,1612.811111,62,other,normal,daily,no,no,ICICI Lombard,Senior Citizen,16128.11111
+4242,06-01-2024 07:00,4,Battery,36.8,130,90,65,98,120,70,Unhealthy,91,1623,58,other,overweight,rarely,no,no,ICICI Lombard,Family,40575
+5636,06-01-2024 08:00,1,Blood Pressure,37.3,90,85,82,84,150,70,Unhealthy,90,1583,46,male,normal,never,yes,yes,ICICI Lombard,Family,39575
+2059,06-01-2024 09:00,4,Blood Pressure,37.2,130,85,92,91,140,70,Healthy,96,1814,32,male,underweight,rarely,yes,no,ICICI Lombard,Personal,27210
+7668,06-01-2024 10:00,4,Battery,36.7,90,60,88,96,140,70,Unhealthy,83,1682,62,other,normal,occasionally,yes,yes,ICICI Lombard,Senior Citizen,16820
+4157,06-01-2024 11:00,2,Temperature,37.04055556,120,80,81,96,150,90,Unhealthy,94,1726.811111,18,other,underweight,rarely,no,no,ICICI Lombard,Personal,25902.16667
+6915,06-01-2024 12:00,1,Heart Rate,37.3,130,85,85,89,120,90,Unhealthy,88,1863,42,other,normal,rarely,yes,yes,ICICI Lombard,Personal,27945
+3693,06-01-2024 13:00,2,Battery,37.4,120,80,87,96,120,80,Healthy,100,1720,24,female,overweight,daily,yes,yes,ICICI Lombard,Personal,25800
+4627,06-01-2024 14:00,1,Temperature,37.2,130,85,80,94,140,80,Unhealthy,99,1550,26,male,overweight,daily,yes,no,ICICI Lombard,Personal,23250
+6450,06-01-2024 15:00,2,Blood Pressure,37.1,150,95,66,91,120,80,Healthy,98,1681,41,other,underweight,daily,yes,no,ICICI Lombard,Personal,25215
+2663,06-01-2024 16:00,3,Blood Pressure,37.04055556,140,90,76,95,130,90,Healthy,98,1693.811111,18,male,obese,occasionally,yes,no,ICICI Lombard,Personal,25407.16667
+6592,06-01-2024 17:00,4,Temperature,37.4,130,95,79,98,150,70,Unhealthy,91,1600,61,female,underweight,daily,yes,no,ICICI Lombard,Senior Citizen,16000
+8392,06-01-2024 18:00,1,Heart Rate,37.4,120,80,82,87,130,70,Unhealthy,84,1555,25,female,underweight,never,no,no,ICICI Lombard,Personal,23325
+8392,08-01-2024 00:00,4,Battery,37.2,90,60,98,89,120,80,Unhealthy,92,1781,25,female,underweight,never,no,no,ICICI Lombard,Personal,26715
+2306,06-01-2024 19:00,1,Blood Pressure,36.5,140,90,81,96,120,80,Healthy,89,1776,41,other,normal,frequently,no,yes,ICICI Lombard,Personal,26640
+7776,06-01-2024 20:00,4,Blood Pressure,36.5,130,85,87,84,140,80,Unhealthy,96,1616,28,female,normal,never,yes,no,ICICI Lombard,Personal,24240
+6864,06-01-2024 21:00,1,Blood Pressure,36.9,140,90,99,95,150,80,Healthy,84,1788,68,male,underweight,never,yes,yes,ICICI Lombard,Senior Citizen,17880
+8526,06-01-2024 22:00,1,Temperature,37.04055556,90,60,66,85,120,90,Healthy,95,1327.811111,34,other,overweight,daily,yes,yes,ICICI Lombard,Family,33195.27778
+9901,06-01-2024 23:00,2,Battery,37.5,140,85,60,87,120,70,Unhealthy,86,1554,25,male,normal,frequently,no,no,ICICI Lombard,Personal,23310
+6575,07-01-2024 00:00,1,Blood Pressure,36.7,90,60,91,97,140,80,Unhealthy,88,1602,52,male,obese,frequently,no,yes,ICICI Lombard,Family,40050
+6530,07-01-2024 01:00,3,Battery,37.1,140,90,72,91,140,80,Healthy,82,1563,52,female,normal,frequently,no,yes,ICICI Lombard,Personal,23445
+5413,07-01-2024 02:00,3,Heart Rate,36.9,90,60,82,94,130,90,Healthy,94,1516,50,female,normal,occasionally,no,yes,ICICI Lombard,Personal,22740
+4748,07-01-2024 03:00,4,Blood Pressure,37.5,120,80,82,88,150,70,Healthy,95,1672,76,female,obese,daily,no,yes,ICICI Lombard,Senior Citizen,16720
+1663,07-01-2024 04:00,1,Blood Pressure,37.3,150,95,78,92,150,80,Unhealthy,97,1626,22,female,underweight,frequently,no,no,ICICI Lombard,Personal,24390
+2998,07-01-2024 05:00,4,Heart Rate,37.3,130,85,91,94,140,70,Unhealthy,93,1695,59,female,obese,occasionally,no,yes,ICICI Lombard,Personal,25425
+8994,07-01-2024 06:00,3,Blood Pressure,37,140,90,89,89,120,80,Unhealthy,82,1896,56,other,underweight,rarely,no,no,ICICI Lombard,Family,47400
+2495,07-01-2024 07:00,1,Battery,36.9,150,95,82,95,150,70,Unhealthy,91,1778,75,male,underweight,rarely,no,no,ICICI Lombard,Senior Citizen,17780
+4304,07-01-2024 08:00,1,Temperature,36.8,130,85,88,86,140,90,Unhealthy,88,1739,58,male,underweight,occasionally,yes,yes,ICICI Lombard,Personal,26085
+4763,07-01-2024 09:00,4,Battery,37.04055556,130,85,89,96,120,80,Unhealthy,86,1683.811111,45,male,obese,occasionally,yes,no,ICICI Lombard,Family,42095.27778
+6232,07-01-2024 10:00,3,Temperature,37.4,90,60,75,86,150,80,Healthy,88,1447,24,male,underweight,daily,yes,no,ICICI Lombard,Personal,21705
+2853,07-01-2024 11:00,1,Temperature,37.3,130,80,99,93,130,70,Unhealthy,92,1955,26,female,overweight,daily,yes,no,ICICI Lombard,Personal,29325
+7585,07-01-2024 12:00,4,Battery,37.5,120,80,78,94,130,80,Unhealthy,97,1489,25,male,obese,rarely,no,yes,ICICI Lombard,Personal,22335
+2291,07-01-2024 13:00,3,Battery,37.5,150,95,77,86,130,80,Unhealthy,84,1640,29,other,overweight,frequently,no,no,ICICI Lombard,Personal,24600
+4581,07-01-2024 14:00,4,Battery,37.1,120,80,82,88,120,90,Unhealthy,92,1649,51,other,underweight,rarely,yes,no,ICICI Lombard,Personal,24735
+8554,07-01-2024 15:00,2,Battery,37.3,140,90,73,98,150,70,Unhealthy,83,1575,50,male,normal,frequently,no,no,ICICI Lombard,Family,39375
+8280,07-01-2024 16:00,1,Heart Rate,37.4,130,80,82,95,150,70,Healthy,81,1592,65,male,underweight,frequently,yes,yes,ICICI Lombard,Senior Citizen,15920
+2636,07-01-2024 17:00,2,Blood Pressure,37.3,150,95,87,87,120,70,Healthy,95,1750,72,other,overweight,daily,no,no,ICICI Lombard,Senior Citizen,17500
+4696,07-01-2024 18:00,3,Temperature,36.7,120,80,89,97,150,80,Healthy,88,1819,40,other,overweight,never,yes,yes,ICICI Lombard,Personal,27285
+1698,07-01-2024 19:00,2,Battery,37,140,90,97,97,120,80,Unhealthy,88,1854,79,female,obese,never,no,yes,ICICI Lombard,Senior Citizen,18540
+5737,07-01-2024 20:00,2,Battery,36.6,90,60,63,99,120,80,Healthy,85,1257,41,other,normal,occasionally,no,yes,ICICI Lombard,Personal,18855
+1854,07-01-2024 21:00,3,Battery,37.5,150,95,60,86,120,80,Healthy,90,1494,54,female,obese,daily,yes,yes,ICICI Lombard,Personal,22410
+9164,07-01-2024 22:00,4,Heart Rate,37.1,90,60,67,82,130,90,Unhealthy,80,1383,52,female,overweight,frequently,no,yes,ICICI Lombard,Personal,20745
+6855,07-01-2024 23:00,2,Battery,36.7,90,60,88,97,120,80,Unhealthy,83,1637,61,female,underweight,never,yes,yes,ICICI Lombard,Senior Citizen,16370
+7528,08-01-2024 01:00,2,Battery,37.04055556,130,85,62,86,150,90,Healthy,92,1562.811111,57,female,normal,frequently,yes,no,ICICI Lombard,Personal,23442.16667
+6249,08-01-2024 02:00,4,Blood Pressure,36.9,130,85,91,96,130,70,Healthy,92,1926,39,female,underweight,never,yes,yes,ICICI Lombard,Personal,28890
+6172,08-01-2024 03:00,3,Heart Rate,36.6,90,60,69,93,120,70,Unhealthy,81,1313,44,male,underweight,never,yes,no,ICICI Lombard,Personal,19695
+2707,08-01-2024 04:00,2,Battery,37.04055556,130,95,69,82,140,70,Unhealthy,88,1485.811111,52,other,normal,never,no,no,ICICI Lombard,Personal,22287.16667
+6791,08-01-2024 05:00,3,Temperature,37,140,90,78,91,130,80,Healthy,87,1694,18,female,obese,daily,no,yes,ICICI Lombard,Personal,25410
+6535,08-01-2024 06:00,2,Temperature,37.3,140,90,93,92,140,70,Healthy,86,1935,52,other,underweight,rarely,no,no,ICICI Lombard,Personal,29025
+5931,08-01-2024 07:00,3,Temperature,37,130,80,92,81,150,90,Unhealthy,83,1847,54,other,overweight,frequently,yes,no,ICICI Lombard,Family,46175
+4510,08-01-2024 08:00,3,Heart Rate,37.4,150,95,82,82,150,80,Unhealthy,97,1660,64,female,underweight,daily,no,no,ICICI Lombard,Senior Citizen,16600
+1202,08-01-2024 09:00,2,Heart Rate,37.1,130,85,87,84,130,90,Healthy,82,1667,31,male,normal,daily,yes,no,ICICI Lombard,Family,41675
+5218,08-01-2024 10:00,2,Temperature,37.1,90,60,91,90,150,70,Unhealthy,85,1658,20,female,normal,daily,no,yes,ICICI Lombard,Personal,24870
+9958,08-01-2024 11:00,2,Battery,37.4,120,80,66,87,140,70,Healthy,91,1459,18,male,normal,daily,no,no,ICICI Lombard,Personal,21885
+5389,08-01-2024 12:00,1,Heart Rate,36.9,140,90,88,91,120,70,Healthy,91,1870,22,other,obese,daily,no,yes,ICICI Lombard,Personal,28050
+3327,08-01-2024 13:00,4,Temperature,36.6,130,85,67,86,120,80,Healthy,100,1564,43,male,underweight,occasionally,yes,no,ICICI Lombard,Family,39100
+9004,08-01-2024 14:00,1,Temperature,37.04055556,130,85,60,94,120,90,Healthy,87,1443.811111,72,male,obese,frequently,no,no,ICICI Lombard,Senior Citizen,14438.11111
+3931,08-01-2024 15:00,1,Battery,37.3,90,60,62,96,130,80,Unhealthy,80,1263,31,male,obese,daily,no,yes,ICICI Lombard,Personal,18945
+8777,08-01-2024 16:00,3,Blood Pressure,37.1,140,90,82,83,150,80,Unhealthy,83,1653,56,other,normal,frequently,yes,no,ICICI Lombard,Family,41325
+1197,08-01-2024 17:00,2,Heart Rate,37.2,150,95,82,92,140,70,Healthy,100,1756,44,other,normal,occasionally,no,no,ICICI Lombard,Family,43900
+8125,08-01-2024 18:00,4,Battery,36.7,130,85,67,97,150,80,Healthy,90,1556,26,male,obese,occasionally,yes,no,ICICI Lombard,Personal,23340
+2930,08-01-2024 19:00,3,Temperature,36.6,90,60,96,80,150,80,Healthy,82,1528,32,male,underweight,frequently,no,yes,ICICI Lombard,Family,38200
+7287,08-01-2024 20:00,1,Temperature,36.5,150,95,62,95,150,70,Healthy,92,1585,32,female,overweight,never,yes,no,ICICI Lombard,Personal,23775
+9800,08-01-2024 21:00,2,Battery,36.9,140,90,92,92,120,80,Healthy,96,1844,43,male,obese,rarely,yes,yes,ICICI Lombard,Family,46100
+5282,08-01-2024 22:00,3,Heart Rate,37.1,130,85,87,89,120,70,Unhealthy,89,1843,59,female,underweight,never,no,no,ICICI Lombard,Personal,27645
+3511,08-01-2024 23:00,2,Blood Pressure,36.9,130,95,67,91,140,70,Unhealthy,100,1477,77,male,normal,never,yes,yes,ICICI Lombard,Senior Citizen,14770
+1659,09-01-2024 00:00,3,Blood Pressure,36.9,150,85,82,81,150,70,Unhealthy,91,1875,30,female,normal,never,yes,yes,ICICI Lombard,Personal,28125
+3811,09-01-2024 01:00,2,Temperature,37.4,150,95,94,82,120,70,Unhealthy,94,1978,68,other,underweight,daily,yes,no,ICICI Lombard,Senior Citizen,19780
+8098,09-01-2024 02:00,1,Heart Rate,36.8,130,85,91,89,120,80,Healthy,100,1737,49,male,overweight,occasionally,yes,no,ICICI Lombard,Personal,26055
+7546,09-01-2024 03:00,4,Blood Pressure,37,130,85,83,81,140,70,Healthy,89,1609,56,male,normal,never,yes,yes,ICICI Lombard,Family,40225
+2986,09-01-2024 04:00,1,Heart Rate,37.3,130,80,73,92,120,80,Unhealthy,93,1622,66,male,normal,occasionally,yes,yes,ICICI Lombard,Senior Citizen,16220
+9338,09-01-2024 05:00,4,Heart Rate,36.9,140,90,82,92,120,80,Healthy,92,1795,69,male,normal,frequently,no,no,ICICI Lombard,Senior Citizen,17950
+3911,09-01-2024 06:00,2,Temperature,37.1,90,60,75,97,120,80,Healthy,84,1572,78,female,underweight,rarely,yes,yes,ICICI Lombard,Senior Citizen,15720
+2734,09-01-2024 07:00,3,Blood Pressure,37.4,150,95,63,82,130,80,Unhealthy,85,1652,49,male,obese,frequently,yes,no,ICICI Lombard,Personal,24780

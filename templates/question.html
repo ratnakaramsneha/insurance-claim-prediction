@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Health Info Form</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-doughnutlabel@latest"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #dbeafe, #eff6ff);
+      padding: 2rem;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      max-width: 750px;
+      margin: 3rem auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #1e3a8a;
+      font-size: 2.2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .form-row {
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #1f2937;
+    }
+    input, select {
+      padding: 0.9rem;
+      font-size: 1rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      background-color: #f9fafb;
+    }
+    input:focus, select:focus {
+      border-color: #2563eb;
+      background-color: #fff;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+    }
+    button {
+      width: 100%;
+      padding: 1rem;
+      background: #2563eb;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1d4ed8;
+    }
+    #resultBox {
+      margin-top: 2rem;
+      padding: 2rem;
+      background-color: #e0fce5;
+      border: 2px solid #16a34a;
+      border-radius: 16px;
+      font-size: 1.1rem;
+      color: #166534;
+      display: none;
+      opacity: 0;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+    #progressContainer {
+      width: 100%;
+      background-color: #e5e7eb;
+      height: 25px;
+      border-radius: 10px;
+      margin-top: 1rem;
+      display: none;
+    }
+    #progressBar {
+      height: 100%;
+      width: 0%;
+      background-color: red;
+      border-radius: 10px;
+      transition: width 0.1s, background-color 0.2s;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><i class="fas fa-heartbeat"></i> Your Health Profile</h1>
+
+    <form id="healthForm" action="/predict" method="post">
+      <!-- Add all your form fields like age, gender, etc. -->
+      <!-- ... copy your existing inputs here exactly as you had them ... -->
+       <div class="form-row">
+        <label><i class="fas fa-user"></i> Age</label>
+        <input type="number" name="age" min="0" max="120" required />
+      </div>
+
+      <div class="form-row">
+        <label><i class="fas fa-venus-mars"></i> Gender</label>
+        <select name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label><i class="fas fa-weight"></i> BMI Category</label>
+        <select name="bmi_category" required>
+          <option value="">Select</option>
+          <option value="underweight">Underweight</option>
+          <option value="normal">Normal</option>
+          <option value="overweight">Overweight</option>
+          <option value="obese">Obese</option>
+        </select>
+      </div>
+
+      <div class="form-row"> 
+        <label><i class="fas fa-briefcase-medical"></i> Insurance Type</label>
+        <select name="insurance_type" required>
+          <option value="">Select</option>
+          <option value="personal">Personal</option>
+          <option value="family">Family</option>
+          <option value="senior citizen">Senior Citizen</option>
+        </select>
+      </div>
+
+
+      <div class="form-row">
+        <label><i class="fas fa-dumbbell"></i> Exercise Frequency</label>
+        <select name="exercise_frequency" required>
+          <option value="">Select</option>
+          <option value="never">Never</option>
+          <option value="rarely">Rarely</option>
+          <option value="occasionally">Occasionally</option>
+          <option value="frequently">Frequently</option>
+          <option value="daily">Daily</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label><i class="fas fa-hamburger"></i> Fast Food Consumption</label>
+        <select name="fast_food" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label><i class="fas fa-smoking"></i> Smoking</label>
+        <select name="smoking" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label><i class="fas fa-thermometer-half"></i> Body Temperature (°C)</label>
+        <input type="number" name="temp" step="0.1" min="30" max="45" required />
+      </div>
+
+      <div class="form-row">
+        <label><i class="fas fa-tachometer-alt"></i> Systolic Blood Pressure (mmHg)</label>
+        <input type="number" name="systolic" min="80" max="200" required />
+      </div>
+
+      <div class="form-row">
+        <label><i class="fas fa-tachometer-alt"></i> Diastolic Blood Pressure (mmHg)</label>
+        <input type="number" name="diastolic" min="50" max="130" required />
+      </div>
+
+      <div class="form-row">
+        <label><i class="fas fa-heart"></i> Heart Rate (bpm)</label>
+        <input type="number" name="heart_rate" min="30" max="200" required />
+      </div>
+
+      <div class="form-row">
+        <label><i class="fas fa-battery-full"></i> Device Battery (%)</label>
+        <input type="number" name="battery" min="0" max="100" required />
+      </div>
+
+
+      <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+    </form>
+
+    <div id="resultBox">
+      <div id="progressContainer">
+        <div id="progressBar"></div>
+      </div>
+      <div id="costText" style="margin-top: 1rem;"></div>
+    </div>
+  </div>
+
+  <script>
+    const MAX_CLAIM_CAP = 50425;
+
+    document.getElementById("healthForm").addEventListener("submit", async function(e) {
+      e.preventDefault();
+
+      const formData = new FormData(e.target);
+      const resultBox = document.getElementById("resultBox");
+      const progressContainer = document.getElementById("progressContainer");
+      const progressBar = document.getElementById("progressBar");
+      const costText = document.getElementById("costText");
+
+      resultBox.style.display = "block";
+      resultBox.style.opacity = 1;
+      costText.innerHTML = "";
+      progressContainer.style.display = "block";
+      progressBar.style.width = "0%";
+      progressBar.style.backgroundColor = "red";
+
+      let width = 0;
+      const interval = setInterval(() => {
+        if (width >= 100) {
+          clearInterval(interval);
+        } else {
+          width++;
+          progressBar.style.width = width + "%";
+          if (width < 40) progressBar.style.backgroundColor = "#dc2626";
+          else if (width < 75) progressBar.style.backgroundColor = "#f59e0b";
+          else progressBar.style.backgroundColor = "#16a34a";
+        }
+      }, 20);
+
+      try {
+        const response = await fetch("/predict", {
+          method: "POST",
+          body: formData
+        });
+
+        const data = await response.json();
+
+        setTimeout(() => {
+          progressContainer.style.display = "none";
+
+          if (response.ok && data.predicted_claim_limit !== undefined) {
+            const percent = ((data.predicted_claim_limit / MAX_CLAIM_CAP) * 100).toFixed(2);
+            let riskLevel = "";
+            if (data.predicted_claim_limit < 15000) riskLevel = "🟢 Low Risk";
+            else if (data.predicted_claim_limit < 30000) riskLevel = "🟠 Medium Risk";
+            else riskLevel = "🔴 High Risk";
+
+            costText.innerHTML = `
+              📊 <strong>Estimated Insurance Percentage:</strong> ${percent}%<br>
+              🚨 <strong>Risk Level:</strong> ${riskLevel}<br><br>
+              📄 <strong>Recommended Insurance Plans:</strong><br>
+              🔹 <a href="https://www.icicilombard.com/health-insurance/individual-health-insurance" target="_blank">Personal Health Insurance</a><br>
+              🏠 <a href="https://www.icicilombard.com/health-insurance/health-advantedge-insurance-for-family" target="_blank">Family Floater Plan</a><br>
+              👴 <a href="https://www.icicilombard.com/health-insurance/golden-shield-senior-citizen-health-insurance" target="_blank">Senior Citizen Plan</a><br>
+              🌐 <a href="https://www.icicilombard.com/health-insurance" target="_blank">All ICICI Plans Overview</a>
+            `;
+
+            costText.style.color = "#166534";
+          } else {
+            costText.innerHTML = `⚠️ Error: ${data.error || "Prediction failed"}`;
+            costText.style.color = "red";
+          }
+        }, 2200);
+      } catch (error) {
+        console.error("Fetch error:", error);
+        progressContainer.style.display = "none";
+        costText.innerHTML = "🚫 Network error.";
+        costText.style.color = "red";
+      }
+    });
+  </script>
+</body>
+</html>
